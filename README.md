@@ -1,36 +1,25 @@
-# Tidewell Landing Page
+Tidewell Landing Page
 
-A responsive landing page for **Tidewell Coffee Roasters**, a fictional small-batch coffee company.
-Built with plain HTML, CSS and JavaScript (no frameworks).
+This is my landing page project for [course/program name]. I made a page for a
+made-up coffee company called Tidewell, using HTML, CSS and JavaScript.
 
-**Live demo:** _add your deployed URL here_
+Live page: https://khansaa06.github.io/landing-page-project/
 
-## Features
-- Header with logo and navigation (Home, About, Services, Contact)
-- Mobile hamburger menu (accessible: keyboard, `aria-expanded`, Escape to close)
-- Hero section with headline, subtext and call-to-action button
-- Services section with 3 cards, testimonials section with 3 quotes
-- Footer with contact details and social links
-- Responsive layout for mobile, tablet and desktop (CSS Grid + media queries)
-- Smooth scrolling, load animation, scroll-reveal animation and active-link highlighting
-- Respects `prefers-reduced-motion`
+ What's on the page
+A header with a menu, a hero section, three service cards, three customer
+quotes, and a footer with contact details and social links. On phones the menu
+turns into a hamburger button. The page also scrolls smoothly and the cards fade
+in as you scroll down.
 
-## Project structure
-```
-landing-page-project/
-├── index.html   # page structure and content
-├── style.css    # styles, organised in numbered sections
-├── script.js    # menu, scroll reveal, active nav link
-└── README.md
-```
+Files
+- `index.html` has the content and structure
+- `style.css` has the design and the mobile/tablet layout
+- `script.js` has the hamburger menu and the scroll animations
 
-## Run locally
-Open `index.html` in a browser, or run `npx serve` in the folder.
+ What I learned
+[Write 2 or 3 sentences about what was new or hard for you. For example: how
+media queries work, how the hamburger menu opens and closes, or how you put the
+page on GitHub Pages.]
 
-## Deploy on GitHub Pages
-1. Push the project to a public repo named `landing-page-project`.
-2. Go to **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-3. Your site will be live at `https://<your-username>.github.io/landing-page-project/`.
-
-## What I learned
-Mobile-first thinking, CSS custom properties, IntersectionObserver, and accessible navigation.
+ How I put it online
+I uploaded the files to this repo and turned on GitHub Pages in Settings.
