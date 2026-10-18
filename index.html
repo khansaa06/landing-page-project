@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tidewell Coffee Roasters | Small-batch coffee, delivered fresh</title>
+  <meta name="description" content="Tidewell roasts small batches of single-origin coffee and ships within 48 hours of roasting.">
+  <!-- Fonts: Bricolage Grotesque (headings) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER / NAVIGATION ========== -->
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a href="#home" class="logo">Tidewell</a>
+
+      <!-- Hamburger button (visible on mobile only) -->
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="nav-menu" class="nav-menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Coffee that left the roaster two days ago.</h1>
+          <p class="hero-sub">Tidewell roasts single-origin beans in small batches every Monday and Thursday, then ships them straight to your door.</p>
+          <a href="#services" class="btn">Choose your subscription</a>
+        </div>
+        <!-- Decorative bean made with pure CSS -->
+        <div class="hero-art" aria-hidden="true"><div class="bean"></div><div class="bean b2"></div></div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="section about">
+      <div class="container narrow reveal">
+        <h2>Roasted by four people, not a factory</h2>
+        <p>We started in a garage in 2019 with one 5 kg roaster. Today we still roast every batch by hand, buy directly from 11 farms, and print the roast date on every bag so you always know how fresh it is.</p>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES (feature cards) ========== -->
+    <section id="services" class="section services">
+      <div class="container">
+        <h2 class="reveal">What we offer</h2>
+        <div class="cards">
+          <article class="card reveal">
+            <h3>Monthly subscription</h3>
+            <p>Two 250 g bags a month, picked by our roasters. Pause or skip any time.</p>
+            <span class="price">From $24 / month</span>
+          </article>
+          <article class="card reveal">
+            <h3>Wholesale for cafés</h3>
+            <p>Custom blends, weekly delivery and free barista training for your team.</p>
+            <span class="price">Min. 10 kg / order</span>
+          </article>
+          <article class="card reveal">
+            <h3>Brewing classes</h3>
+            <p>A two-hour hands-on session on espresso, pour-over and tasting at home.</p>
+            <span class="price">$35 per person</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="section testimonials">
+      <div class="container">
+        <h2 class="reveal">What customers say</h2>
+        <div class="quotes">
+          <blockquote class="reveal">
+            <p>The beans arrive smelling like the roastery. I stopped buying supermarket coffee the same week.</p>
+            <footer>Amina R., subscriber since 2022</footer>
+          </blockquote>
+          <blockquote class="reveal">
+            <p>Our café's sales of filter coffee doubled after switching to Tidewell. The training was a bonus.</p>
+            <footer>Daniel K., owner of Corner Cup</footer>
+          </blockquote>
+          <blockquote class="reveal">
+            <p>I finally understand why my pour-over tasted bitter. One class fixed it.</p>
+            <footer>Sara M., class attendee</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER / CONTACT ========== -->
+  <footer id="contact" class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="logo">Tidewell</a>
+        <p>Small-batch coffee, roasted twice a week.</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <address>
+          12 Harbour Lane, Portside<br>
+          <a href="mailto:hello@tidewell.example">hello@tidewell.example</a><br>
+          <a href="tel:+15550142020">+1 (555) 014-2020</a>
+        </address>
+      </div>
+      <div>
+        <h3>Follow us</h3>
+        <ul class="social">
+          <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://x.com" target="_blank" rel="noopener">X</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">&copy; <span id="year">2026</span> Tidewell Coffee Roasters. A fictional company for a demo project.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
